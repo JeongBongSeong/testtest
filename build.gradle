@@ -32,3 +32,7 @@ application {
     // Define the main class for the application.
     mainClassName = 'tests.App'
 }
+task zip (type:Zip){
+	from"src"
+	setArchiveName"test_1.zip"
+}
