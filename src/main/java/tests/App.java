@@ -5,7 +5,7 @@ package tests;
 
 public class App {
     public int getGreeting() {
-        return 21312*32;
+        return 22*32;
     }
 
     public static void main(String[] args) {
