@@ -5,7 +5,17 @@ package tests;
 
 public class App {
     public int getGreeting() {
-        return 22*32;
+	int x = 0;
+	int i = 0;
+	while(i<1000000){
+
+		if((i%10000)==0){
+			System.out.println("Hello");
+			x++;
+		}
+		i++;
+	}
+        return x;
     }
 
     public static void main(String[] args) {
